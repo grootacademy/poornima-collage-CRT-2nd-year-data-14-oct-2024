@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.grootsoftware.inex.Animal"/>
+    <fullyQualifiedTypeName name="com.grootsoftware.inex.Dog"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="com.grootsoftware.inex.BabayDog"/>
+    <fullyQualifiedTypeName name="com.grootsoftware.inex.hieraichal.Animal"/>
+    <fullyQualifiedTypeName name="com.grootsoftware.inex.hieraichal.Dog"/>
+    <fullyQualifiedTypeName name="com.grootsoftware.inex.hieraichal.Cat"/>
+    <fullyQualifiedTypeName name="com.grootsoftware.inex.hieraichal.conex.Animal"/>
+    <fullyQualifiedTypeName name="com.grootsoftware.inex.hieraichal.conex.Dog"/>
+    <fullyQualifiedTypeName name="java.awt.Frame"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextArea"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
+</qualifiedTypeNameHistroy>

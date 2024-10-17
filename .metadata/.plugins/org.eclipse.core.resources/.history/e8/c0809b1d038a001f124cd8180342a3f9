@@ -1,0 +1,8 @@
+package com.groot.firsday;
+
+import java.util.Scanner;
+
+public class StrnigComp {
+		Scanner sc=new Scanner(System.in);
+		String countryName=sc.next();
+}

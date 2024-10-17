@@ -1,0 +1,16 @@
+package ccom.groo.dummy;
+
+public class Test {
+
+}
+class ABC{
+	int data=100;
+	public void say() {
+		System.out.println("Data :: "+data);
+	}
+}
+class XYZ {
+	public ABC getObj() {
+		
+	}
+}

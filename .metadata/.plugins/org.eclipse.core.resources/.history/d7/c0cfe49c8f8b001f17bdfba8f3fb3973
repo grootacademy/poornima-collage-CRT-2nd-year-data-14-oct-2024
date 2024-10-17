@@ -1,0 +1,10 @@
+package com.grootsoftware.inex.hieraichal.conex;
+
+public class ContructorEx {
+
+}
+class Animal{
+	public Animal() {
+		// TODO Auto-generated constructor stub
+	}
+}

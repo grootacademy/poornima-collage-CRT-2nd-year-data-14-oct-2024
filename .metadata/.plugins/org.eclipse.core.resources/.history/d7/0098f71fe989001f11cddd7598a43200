@@ -1,0 +1,8 @@
+package com.groot.firsday;
+import java.util.Scanner;
+public class Demo {
+		public static void main(String args[]) {
+//			System.out.println("Hello Java");
+			Scanner sc =new Scanner(System.in);
+		}
+}

@@ -1,0 +1,16 @@
+package com.groot.awtex;
+
+import java.awt.*;
+
+public class Test {
+	public static void main(String[] args) {
+		Frame myframe=new Frame("My First Frame");
+		 Label nameLabel=new Label("Name");
+		 nameLabel.setBounds( 100, 50, 100, 30);
+		 myframe.add(nameLabel);
+	
+		myframe.setLayout(null);
+		myframe.setVisible(true);
+		myframe.setSize(500, 500);
+	}
+}

@@ -1,0 +1,10 @@
+package com.grootacademy.methodex;
+
+public class Test {
+
+}
+class MyUtils{
+	public void saySomethig() {
+		System.out.println("Hello");
+	}
+}

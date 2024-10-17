@@ -1,0 +1,16 @@
+package com.groot.swingex;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class Test {
+ public static void main(String[] args) {
+	 JFrame f=new JFrame();
+	 JLabel nameLabel=new JLabel("Name : ");
+	 nameLabel.setBounds(100,50,100,30);
+	 
+	 f.setLayout(null);
+	 f.setVisible(true);
+	 f.setSize(500, 500);
+}
+}

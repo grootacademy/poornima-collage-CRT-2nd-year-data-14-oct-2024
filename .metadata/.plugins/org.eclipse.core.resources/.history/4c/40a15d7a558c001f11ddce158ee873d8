@@ -1,0 +1,19 @@
+package ccom.groo.abstractClassEx;
+
+public class Test {
+	public static void main(String[] args) {
+		 xyz=new XYZ();
+	}
+}
+abstract class ABC{
+	public abstract void say();
+}
+class XYZ extends ABC{
+
+	@Override
+	public void say() {
+		// TODO Auto-generated method stub
+		System.out.println("Hello from XYZ");
+	}
+	
+}

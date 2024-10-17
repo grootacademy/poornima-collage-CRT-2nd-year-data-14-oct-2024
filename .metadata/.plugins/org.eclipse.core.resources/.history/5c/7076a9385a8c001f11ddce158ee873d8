@@ -1,0 +1,7 @@
+package ccom.groo.abstractClassEx.abstractionEx.sbi;
+
+import ccom.groo.abstractClassEx.abstractionEx.rbi.RBIBank;
+
+public class SBIBank  extends RBIBank{
+
+}

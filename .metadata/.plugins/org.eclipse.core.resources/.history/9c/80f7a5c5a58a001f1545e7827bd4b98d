@@ -1,0 +1,10 @@
+package com.groot.abc;
+
+public class Test {
+
+}
+class Student{
+	int id;
+	String name;
+	float fee;
+}

@@ -1,0 +1,11 @@
+package com.groo.abc;
+
+import javax.swing.JFrame;
+
+public class MyFrame extends JFrame{
+	public MyFrame() {
+		setTitle("Event handling");
+		
+		setLayout(null);
+	}
+}

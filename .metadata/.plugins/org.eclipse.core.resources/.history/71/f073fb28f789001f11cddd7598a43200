@@ -1,0 +1,7 @@
+package com.groot.firsday;
+
+public class ValidateAgeEx {
+	public static void main(String[] args) {
+		
+	}
+}

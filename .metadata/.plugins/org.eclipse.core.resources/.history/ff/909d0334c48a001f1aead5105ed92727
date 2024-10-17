@@ -1,0 +1,13 @@
+package com.grootacademy.methodex;
+
+public class Test2 {
+	public static void main(String[] args) {
+		Student st=new Student(10);
+	}
+}
+
+class Student {
+	Student(int a){
+		System.out.println("Non args construcotor");
+	}
+}

@@ -1,0 +1,22 @@
+package com.groot.awtex;
+
+import java.awt.*;
+
+public class Test {
+	public static void main(String[] args) {
+		Frame myframe=new Frame("My First Frame");
+		 Label nameLabel=new Label("Name");
+		 nameLabel.setBounds( 100, 50, 100, 30);
+		 nameLabel.setBackground(Color.red);
+		 nameLabel.setForeground(Color.white);
+		 myframe.add(nameLabel);
+		 TextField nameTextField=new TextField();
+		 nameTextField.setBounds(230, 50, 200, 30);
+		 myframe.add(nameTextField);  
+		 Label passwordLabel=new Label("Password");
+		 passwordLabel.setBounds(100, 100, 100, 30);
+		myframe.setLayout(null);
+		myframe.setVisible(true);
+		myframe.setSize(500, 500);
+	}
+}

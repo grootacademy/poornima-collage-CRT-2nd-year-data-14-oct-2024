@@ -1,0 +1,31 @@
+package com.grootacademy.methodex;
+
+import java.util.Scanner;
+
+public class Test {
+	public static void main(String[] args) {
+		MyUtils myUtils=new MyUtils();
+		myUtils.saySomethig();
+		myUtils.saySomethig();
+		
+		myUtils.saySomethig();
+		myUtils.saySomethig();
+		myUtils.saySomethig();
+		myUtils.getFact();
+	}
+}
+class MyUtils{
+	public void saySomethig() {
+		System.out.println("Hello");
+	}
+	public void getFact() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a number :: ");
+		int num=sc.nextInt();
+		long fact=1;
+		for(int i=1;i<=num;i++) {
+			fact=fact*i;
+		}
+		System.out.println("Factorial ="+fact);
+	}
+}

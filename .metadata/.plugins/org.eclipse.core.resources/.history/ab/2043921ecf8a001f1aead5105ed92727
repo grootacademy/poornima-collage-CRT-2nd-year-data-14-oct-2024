@@ -1,0 +1,8 @@
+package com.groot.assosiation;
+
+public class Address {
+		String plotno;
+		String area;
+		String dist;
+		String pinCode;
+}

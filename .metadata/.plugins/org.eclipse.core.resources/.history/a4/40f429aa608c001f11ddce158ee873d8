@@ -1,0 +1,16 @@
+package com.groo.abc;
+
+import java.awt.Button;
+
+import javax.swing.JFrame;
+
+public class MyFrame extends JFrame{
+	public MyFrame() {
+		setTitle("Event handling");
+		Button b=new Button("Click me for Second Frame");
+		b.setBounds(100, 100, 200, 30);
+		setLayout(null);
+		setVisible(true);
+		setSize(500,500);
+	}
+}

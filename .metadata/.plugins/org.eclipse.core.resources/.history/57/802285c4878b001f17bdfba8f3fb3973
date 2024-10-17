@@ -1,0 +1,12 @@
+package com.grootsoftware.inex;
+
+public class Test {
+	public static void main(String[] args) {
+		
+	}
+}
+class Animal{
+	public void eat() {
+		System.out.println("Animal is eating");
+	}
+}

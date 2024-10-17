@@ -1,0 +1,9 @@
+package com.groo.abc;
+
+import javax.swing.JFrame;
+
+public class MyFrame2 extends  JFrame{
+	public MyFrame2() {
+		
+	}
+}

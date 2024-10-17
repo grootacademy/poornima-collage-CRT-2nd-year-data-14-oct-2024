@@ -1,0 +1,24 @@
+package com.grootacademy.methodex;
+
+public class Test2 {
+	public static void main(String[] args) {
+//		Student st=new Student(10);
+		new Student();
+	}
+}
+
+class Student {
+	Student(int a){
+		this("jai");
+		System.out.println(" args construcotor");
+	}
+	Student(String a){
+		this();
+		System.out.println(" args construcotor");
+	}
+	public Student() {
+		// TODO Auto-generated constructor stub
+		this(10);
+		System.out.println("no args constructor");
+	}
+}

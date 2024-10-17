@@ -1,0 +1,5 @@
+package com.grootsoftware.inex.hieraichal;
+
+public class Cat extends Animal{
+
+}

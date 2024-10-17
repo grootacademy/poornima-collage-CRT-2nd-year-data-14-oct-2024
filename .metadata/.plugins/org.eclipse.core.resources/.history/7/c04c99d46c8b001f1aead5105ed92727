@@ -1,0 +1,16 @@
+package com.grootsoftware.a1;
+
+public class Employee {
+	int id;
+	String name;
+	float salary;
+	Address address;
+	public Employee(int id, String name, float salary, Address address) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+		this.address = address;
+	}
+	
+}

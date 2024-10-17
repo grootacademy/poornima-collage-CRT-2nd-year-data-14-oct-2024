@@ -1,0 +1,9 @@
+package com.groot.awtex;
+
+import java.awt.*;
+
+public class Test {
+	public static void main(String[] args) {
+		Frame f=new Frame("My First Frame");
+	}
+}

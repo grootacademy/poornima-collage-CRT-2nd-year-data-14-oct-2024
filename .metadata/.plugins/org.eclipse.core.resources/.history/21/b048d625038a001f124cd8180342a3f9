@@ -1,0 +1,15 @@
+package com.groot.firsday;
+
+import java.util.Scanner;
+
+public class StrnigComp {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String countryName=sc.next();
+		if(countryName.equalsIgnoreCase("india")) {
+			System.out.println("Welcomer");
+		}else {
+			System.out.println("Sahi jagah janm lete");
+		}
+	}
+}

@@ -1,0 +1,20 @@
+package com.grootacademy.methodex;
+
+public class Test2 {
+
+}
+class Student{
+	int id;
+	String name;
+	float fee;
+	public void setValues(int i,String n,float f) {
+		id=i;
+		name=n;
+		fee=f;
+	}
+	public void printDetails() {
+		System.out.println(id);
+		System.out.println(name);
+		System.out.println(fee);
+	}
+}

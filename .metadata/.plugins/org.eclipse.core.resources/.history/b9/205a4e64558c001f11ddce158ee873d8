@@ -1,0 +1,13 @@
+package ccom.groo.abstractClassEx;
+
+public class Test {
+	public static void main(String[] args) {
+		new ABC();
+	}
+}
+abstract class ABC{
+	public abstract void say();
+}
+class XYZ extends ABC{
+	
+}

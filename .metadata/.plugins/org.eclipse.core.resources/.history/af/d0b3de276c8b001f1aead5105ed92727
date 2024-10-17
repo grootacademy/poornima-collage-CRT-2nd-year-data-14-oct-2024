@@ -1,0 +1,6 @@
+package com.grootsoftware.a1;
+
+public class Address {
+	String plotNo;
+	String area;
+}

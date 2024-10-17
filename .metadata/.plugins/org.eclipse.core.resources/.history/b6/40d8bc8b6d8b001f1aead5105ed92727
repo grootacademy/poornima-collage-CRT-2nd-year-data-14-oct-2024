@@ -1,0 +1,7 @@
+package com.grootsoftware.a1;
+
+public class Test {
+	public static void main(String[] args) {
+		Address a1 = new Address("89", "Mansarovar", "Jaqipur", "302020");
+	}
+}

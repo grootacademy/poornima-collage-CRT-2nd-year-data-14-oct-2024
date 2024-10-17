@@ -1,0 +1,24 @@
+package com.groot.abc;
+
+public class Test {
+	public static void main(String[] args) {
+		Student st = new Student();
+		System.out.println("Before initialzastion  ::");
+		System.out.println(st.id);
+		System.out.println(st.name);
+		System.out.println(st.fee);
+		st.id = 101;
+		st.name = "jai";
+		st.fee = 300.9f;
+		System.out.println("After initialzation  :");
+		System.out.println(st.id);
+		System.out.println(st.name);
+		System.out.println(st.fee);
+	}
+}
+
+class Student {
+	int id;
+	String name;
+	float fee;
+}
